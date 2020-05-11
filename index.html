@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login</title>
+<h1>Beta Login</h1>
+<script src="index.js"></script>
+<style>
+
+h1{
+font-family: Arial;
+}
+
+.login{
+padding: 50px;
+border: solid 2px black;
+position: relative;
+width: 260px;
+border-radius: 3px;
+margin: 0 auto;
+}
+
+#pass{
+padding: 7px;
+margin: 20px;
+border-radius: 3px;
+border: solid 1px grey;
+width: 200px;
+}
+
+#submit:hover{
+background-color: #0df00a;
+border: solid green 1px;
+border-radius: 3px;
+font-family: Arial;
+cursor: pointer;
+}
+
+#submit{
+width: 100px; 
+padding: 7px; 
+margin: 20px; 
+position: relative; 
+left: 45; 
+font-family: Arial; 
+background-color: #04ff00; 
+font-size: 18px; 
+border: solid green 1px; 
+border-radius: 3px; 
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="login">
+<form class="testform" action="tp.html" onsubmit="return valuecheck()">
+<p id="passalert" title="PASSWORD ALERT"></p>
+<input placeholder="Password" id="pass" type="password" title="Type your password here.">
+<br>
+<input id="submit" value="Login" type="submit" title="Press to Login.">
+</form>
+</div>
+</body>
+</html>
